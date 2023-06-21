@@ -1,0 +1,64 @@
+/* Style untuk elemen judul */
+h1 {
+  text-align: center;
+}
+
+/* Style untuk kontainer permainan */
+#game-container {
+  margin: 0 auto;
+  max-width: 400px;
+  text-align: center;
+}
+
+/* Style untuk skor dan nomor ronde */
+#score-container, #round-container {
+  margin-bottom: 10px;
+}
+
+/* Style untuk tombol pilihan */
+.choice-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 5px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.choice-button:hover {
+  background-color: #45a049;
+}
+
+/* Style untuk kontainer hasil */
+#result-container {
+  margin-top: 20px;
+}
+
+#result-text {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+/* Style untuk tombol lanjut ke ronde berikutnya */
+#next-round-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+#next-round-button:disabled {
+  background-color: #aaa;
+  cursor: not-allowed;
+}
+
+#next-round-button:hover:not([disabled]) {
+  background-color: #45a049;
+}
